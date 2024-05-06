@@ -1,0 +1,317 @@
+
+  .box-left{
+      /* right: 5rem; */
+      /* float: ; */
+      position: relative;
+      border-radius: 1rem;
+      border-top-left-radius:0px ;
+      border-bottom-left-radius:0px ;
+      width: 14rem;
+      height: 20rem;
+      background-color: #0A0F0D;
+      transition: width 0.5s ease-out;
+    }
+    .boxRight *
+    {
+      overflow: hidden !important;
+    }
+    .boxRight
+    {
+    transition: width 0.5s ease-out;
+    border-radius: 1rem;
+    overflow: hidden !important;
+    
+    border-top-right-radius:0px ;
+      border-bottom-right-radius:0px ;
+      height: 20rem;
+      width:  15rem; 
+      position: sticky;
+      /* left: 5%; */
+      background:#0A0F0D;
+      /* float: ; */
+    }
+    .box-left div img
+    {
+      border-radius: 1rem;
+    }
+    
+    .box-left div
+    {
+      transition: all 0.5s !important;
+    width: fit-content;
+    opacity: 0;
+    
+    }
+    .box-left:hover
+    {
+      z-index: 20 !important;
+      width: 80rem !important;
+    
+    }
+    .box-left:hover *
+    {
+      opacity: 100% !important;
+    
+    
+    }
+    .boxRight:hover
+    {
+      z-index: 20 !important;
+      width: 80rem ;
+    
+    }
+    .boxRight .DPHOTO
+  {
+    opacity: 0 !important;
+    transition: all 1s;
+  }
+
+
+    .boxRight:hover .IMG
+    {
+      opacity: 100% !important;
+      
+    }
+    .box-left:hover + .boxCenter
+    {
+      /* visibility: hidden; */
+    }
+    @keyframes VIDEO {
+      0%
+      {
+        height: 60rem !important;
+  /* transform: scale(100%) !important; */
+      }
+  50%
+  {
+    height: 70rem !important;
+    width: 25rem !important;
+  /* transform: scale(150%) !important; */
+
+  }
+  100%
+  {
+    height: 60rem !important;
+
+  /* transform: scale(100%) !important; */
+
+  }
+      
+    }
+
+    .boxCenter
+    {
+      transition: all 0.5s ease-out;
+    }
+    .boxCenter:hover
+    {
+      box-shadow: 5px 5px 100px #333;
+      height: 80rem !important;
+      width: 25rem !important;
+      z-index: 100 !important;
+      /* animation: VIDEO ease 0.5s infinite forwards none; */
+
+    }
+    @keyframes animation1 {
+      0%
+      {
+          opacity: 0%;
+        right: 15em ;
+      }
+      75%
+      {
+          opacity: 0%;
+      }
+      99%
+        {
+          opacity: 0% !important;
+        }    100%
+      {
+          right: 0rem ;
+          opacity: 100%;
+
+      }
+    }
+  
+    
+
+    .box-left:hover .PlayAnimation
+    {
+      opacity: 0;
+      animation: animation1 0.5s ease 0.5s 1 forwards normal;
+    }
+
+    @keyframes animation2 {
+      0%
+      {
+          opacity: 0%;
+        right: 32em ;
+      }
+      75%
+      {
+          opacity: 0%;
+      }
+      99%
+        {
+          opacity: 0% !important;
+        }    
+      100%
+      {
+          right: 0rem ;
+          opacity: 100%;
+      
+      }
+    }
+    
+  @keyframes animation3 {
+      0%
+      {
+          opacity: 0%;
+        right: 52em ;
+      }
+      75%
+      {
+          opacity: 0%;
+      }
+      99%
+      {
+        opacity: 0% !important;
+      }    
+      100%
+      {
+          right: 0rem ;
+          opacity: 100%;
+      
+      }
+    }
+  .box-left:hover .animation2
+
+  {
+    opacity: 0;
+    animation: animation2 0.4s ease 0.5s 1 forwards normal;
+
+  }
+
+  .box-left:hover .PlayAnimation3
+    {
+      position: relative;
+      opacity: 0%;
+
+      animation: animation3 0.5s ease 0.5s 1 forwards normal;
+    
+    
+    }
+    @media only screen and (max-width: 425px) {
+      body
+      {
+        overflow-x: hidden;
+      }
+      .box-left
+      {
+        width: 10rem !important;
+      }
+      .boxCenter
+      {
+        height: 10rem !important;
+        object-fit: contain !important;
+        /* width: 10rem !important; */
+      }
+      .boxCenter:hover
+    {
+      box-shadow: 5px 5px 0px !important;
+      height: 15rem !important;
+      /* width: 25rem !important; */
+      z-index: 100 !important;
+      /* animation: VIDEO ease 0.5s infinite forwards none; */
+
+    }
+    .box-left:hover
+    {
+      z-index: 20 !important;
+      width: 20rem !important;
+    
+    }
+    .box-left:hover img
+    {
+      z-index: 20 !important;
+      width: 5rem !important  ;
+      object-fit: cover !important;
+      height: 5rem !important;
+    }
+
+
+    }
+
+
+
+    /* cloths  */
+    .CLOTHS
+    {
+        margin-top: 5vh ;
+        
+    } 
+    .YELLOW-BOX .IMG
+    {
+      
+      height: 15rem;
+      width: 15rem;
+    }
+    
+ 
+
+    .YELLOW-BOX .discriptions
+    {
+      font-family: FUTURA;
+      position: relative;
+        animation: Discriptrions 15s ease-in-out   1s infinite forwards normal;
+    }
+    .YELLOW-BOX .PRODUCTS
+    {
+      position: relative;
+      animation: PRODUCTS 15s ease-in-out  1s infinite forwards normal;
+
+    }
+@keyframes  PRODUCTS{
+  0%
+      {
+        bottom: 0;  
+
+      }
+      10%{
+bottom: 19.5rem;
+      }
+      
+      100%
+      {
+        
+bottom: 0;
+      }
+}
+    @keyframes Discriptrions{
+      0%
+      {
+        bottom: 18.5rem;  
+
+      }
+      10%{
+bottom: 0;
+      }
+      
+  
+      
+
+      100%
+      {
+        bottom: 18.5rem;
+
+      }
+    }
+
+ 
+    .sidemenu li:hover
+    {
+     
+     
+       background: #555555 !important;
+    }  
+ 
